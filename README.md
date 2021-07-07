@@ -16,7 +16,7 @@ Then we also go on to use the text embeddings as features. It also turns out to 
 
 In th end, the sota is just with binary features, and more folds (20 folds x 2 fold sets).
 Though we train with addition 3 layers of stacking (makes 5 in total), the best performing
-one is on L3 ensemble, which could have been produced by the default 1 stacking layer.
+one is on L3 ensemble, which could have been produced by the default stacking layer.
 
 
 # Data
@@ -26,6 +26,10 @@ the text embeddings extracted from text predictor. Note: useless cols (globalID,
 
 - `data/featurizd/V1` contains binary features (has_title, has_desc, has_image_url), plus
   the text/image classifier output probabilities. Note: useless cols (globalID, etc.) are dropped.
+  
+ # Slides
+ 
+[google doc](https://docs.google.com/presentation/d/1AZSWQuVk2Oy3eCzMrqi_tqoqKo9pN5HB8cWvD7NAbWI/edit#slide=id.p)
   
 
 
